@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    subtitle = "Mon futur blog fait avbec Hugo."
     avatar   = "img/avatar.png"
 
 [article]
@@ -51,7 +51,14 @@ SortBy              = "default"
 ## Comments
 [comments]
     enabled  = true
-    provider = "disqus"
+    provider = "remark42"
+
+[comments.remark42]
+    host                    = "https://remark42.nas-n150.pled.fr"
+    site                    = "remark"
+    locale                  = "fr"
+    max_shown_comments      = 15
+    show_email_subscription = true
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
